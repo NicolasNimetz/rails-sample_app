@@ -53,7 +53,9 @@ end
 
 group :test do
 	gem 'rspec'
+  gem 'capybara'
 	gem 'webrat'
-	gem 'spork'
+	#gem 'spork'
+  gem 'spork-rails'
 	gem 'factory_girl_rails'
 end
